@@ -13,6 +13,8 @@ def sentiment(input):
 
 
 def main():
+    st.set_page_config(
+    page_title="G-AI-SA"
     st.title("GURU PRASAATH NEW APP")
     st.header("Enter the text")
     user_input = st.text_input("")
